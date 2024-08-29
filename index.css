@@ -7,7 +7,7 @@
 }
 
 .container{
-    width: 1200px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -20,4 +20,62 @@
 .list{
     display: flex;
     gap: 50px;
+}
+
+.fa-solid{
+    display: none;
+    font-size: 35px;
+}
+
+@media only screen and (max-width : 900px){
+    .container{
+        width: 90%;
+    }
+
+    body{
+        background: rgb(43, 38, 38);
+    }
+
+    .logo{
+        font-size: 40px;
+        color: gold;
+
+    }
+
+    .link{
+        font-size: 25px;
+        color: gold;
+    }
+}
+
+
+@media only screen and (max-width : 600px){
+
+    .container{
+        width: 94%;
+    }
+
+    body{
+        background: rgb(94, 92, 92);
+    }
+
+    .logo{
+        font-size: 40px;
+        color: gold;
+
+    }
+
+    .link{
+        font-size: 25px;
+        color: gold;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .fa-solid{
+        display: inline-block;
+    }
+
 }
